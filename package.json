@@ -1,0 +1,22 @@
+{
+  "name": "general-test",
+  "version": "1.0.0",
+  "description": "General test",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jest": "^24.0.11",
+    "assert": "^1.4.1",
+    "lodash": "^4.17.11",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
